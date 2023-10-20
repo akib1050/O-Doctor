@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DoctorHomeController">
+   <children>
+      <AnchorPane layoutX="-12.0" layoutY="106.0" prefHeight="597.0" prefWidth="1198.0">
+         <children>
+            <VBox layoutX="21.0" layoutY="2.0" prefHeight="594.0" prefWidth="207.0">
+               <children>
+                  <Label prefHeight="72.0" prefWidth="212.0" text="Patient username:">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="46.0" prefWidth="207.0">
+                     <children>
+                        <Label prefHeight="64.0" prefWidth="191.0" text="Medicine 01  :">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Label prefHeight="52.0" prefWidth="148.0" text="Medicine 02  :">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="49.0" prefWidth="148.0" text="Medicine 03  :">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="123.0" prefWidth="175.0" text="Doctor Advice :">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="622.0" prefHeight="597.0" prefWidth="574.0">
+               <children>
+                  <AnchorPane prefHeight="605.0" prefWidth="573.0">
+                     <children>
+                        <VBox prefHeight="609.0" prefWidth="161.0">
+                           <children>
+                              <Label prefHeight="72.0" prefWidth="154.0" text="Patient name:">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="72.0" prefWidth="212.0" text="Age:">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="72.0" prefWidth="212.0" text="Weight:">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="72.0" prefWidth="212.0" text="Blood Group:">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="72.0" prefWidth="212.0" text="Sex:">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="72.0" prefWidth="212.0" text="Diseases:">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="72.0" prefWidth="212.0">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="72.0" prefWidth="212.0" text="Cell Number:">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <Label fx:id="patientName" layoutX="171.0" layoutY="26.0" prefHeight="32.0" prefWidth="377.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <TextField fx:id="userNameIP" layoutX="225.0" layoutY="23.0"  prefHeight="32.0" prefWidth="377.0" />
+            <TextField fx:id="med01" layoutX="225.0" layoutY="78.0"  prefWidth="377.0" />
+            <TextField fx:id="med02" layoutX="225.0" layoutY="130.0" prefHeight="31.0" prefWidth="377.0" />
+            <TextField fx:id="med03" layoutX="225.0" layoutY="179.0" prefHeight="31.0" prefWidth="377.0" />
+            <TextField fx:id="DoctorAdvice" layoutX="228.0" layoutY="260.0" prefHeight="191.0" prefWidth="377.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="609.0" prefHeight="106.0" prefWidth="591.0" style="-fx-background-color: green;" text="Patient Information">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

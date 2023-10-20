@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="Controllers.StuffController">
+   <children>
+      <Label layoutX="521.0" layoutY="19.0" prefHeight="97.0" prefWidth="476.0" text="Stuff">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="163.0" prefHeight="73.0" prefWidth="194.0" text="Stuff Name:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="stuffname" layoutX="225.0" layoutY="187.0" prefHeight="26.0" prefWidth="459.0" />
+      <Button layoutX="715.0" layoutY="179.0" mnemonicParsing="false" onAction="#saveClicked" prefHeight="55.0" prefWidth="75.0" style="-fx-background-color: Orange;" text="Save" />
+   </children>
+</AnchorPane>

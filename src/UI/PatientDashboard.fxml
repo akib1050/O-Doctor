@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="Controllers.PatientDashboardController">
+   <children>
+      <Label layoutX="60.0" layoutY="65.0" prefHeight="70.0" prefWidth="849.0" text=" Dashboard" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="78.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="507.0" layoutX="50.0" layoutY="163.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" width="803.0" />
+   </children>
+</AnchorPane>
